@@ -29,7 +29,3 @@ jobs:
       with:
         files: output/business_card.pdf
         token: ${{ secrets.GITHUB_TOKEN }}
-
-    - name: Get Release URL
-      run: echo "Release URL: ${{ steps.upload-release-asset.outputs.browser_download_url }}"
-
