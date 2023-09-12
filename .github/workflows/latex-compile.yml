@@ -29,3 +29,6 @@ jobs:
       with:
         files: output/business_card.pdf
         token: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Github Action for LaTeX
+      uses: xu-cheng/latex-action@v3
