@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.9.8)  12 SEP 2023 17:58
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.9.8)  12 SEP 2023 17:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -296,11 +296,11 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(14.45377pt, 260.17245pt, 14.45377pt)
-* v-part:(T,H,B)=(7.22743pt, 140.9263pt, 3.61371pt)
+* v-part:(T,H,B)=(7.22743pt, 148.15263pt, 3.61371pt)
 * \paperwidth=289.07999pt
-* \paperheight=151.76744pt
+* \paperheight=158.99377pt
 * \textwidth=260.17245pt
-* \textheight=140.9263pt
+* \textheight=148.15263pt
 * \oddsidemargin=-57.81622pt
 * \evensidemargin=-57.81622pt
 * \topmargin=-102.04256pt
