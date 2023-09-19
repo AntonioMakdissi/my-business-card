@@ -34,4 +34,4 @@ jobs:
       uses: softprops/action-gh-release@v1
       with:
         files: card.pdf
-        token: ${{ secrets.GITHUB_TOKEN }}
+        token: ${{ secrets.CUSTOM_GITHUB_TOKEN }}
