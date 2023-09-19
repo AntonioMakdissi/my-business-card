@@ -13,14 +13,18 @@ jobs:
     - name: Checkout Repository
       uses: actions/checkout@v3
 
+    - name: Install XeTeX
+      run: |
+        sudo apt-get update
+        sudo apt-get install texlive-xetex -y
+
     - name: Compile LaTeX Document
-      run: pdflatex -interaction=nonstopmode -halt-on-error -output-directory=output card.tex
+      uses: xu-cheng/latex-action@v3
+      with:
+        root_file: card.tex  # Change this to your LaTeX file name
 
     - name: Upload PDF as Release Asset
-      uses: softprops/action-gh-release@v1
+      uses: actions/upload-artifact@v3
       with:
-        files: output/card.pdf
-        token: ${{ secrets.GITHUB_TOKEN }}
-
-    - name: Github Action for LaTeX
-      uses: xu-cheng/latex-action@v3
+        name: PDF
+        path: card.pdf  # Change this to your LaTeX output file name
