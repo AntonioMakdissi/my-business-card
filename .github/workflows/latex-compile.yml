@@ -24,7 +24,7 @@ jobs:
     - name: Upload PDF as Release Asset
       uses: softprops/action-gh-release@v1
       with:
-        files: output/business_card.pdf
+        files: output/card.pdf
         token: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Github Action for LaTeX
